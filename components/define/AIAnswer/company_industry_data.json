@@ -1,0 +1,1279 @@
+[
+  {
+    "label": "3D Printing / Additive Manufacturing",
+    "child": [
+      { "label": "Rapid Prototyping" },
+      { "label": "Custom Manufacturing" },
+      { "label": "Medical Implants" },
+      { "label": "Automotive Parts" },
+      { "label": "Aerospace Components" },
+      { "label": "Architectural Models" },
+      { "label": "Jewelry Design" },
+      { "label": "Fashion Accessories" },
+      { "label": "Art and Sculpture" },
+      { "label": "Dental Restorations" },
+      { "label": "Education and Research" },
+      { "label": "Food Printing" },
+      { "label": "Electronics" },
+      { "label": "Packaging" },
+      { "label": "Tooling and Molds" }
+    ]
+  },
+  {
+    "label": "Accommodation",
+    "child": [
+      { "label": "Hotels" },
+      { "label": "Resorts" },
+      { "label": "Motels" },
+      { "label": "Bed and Breakfasts" },
+      { "label": "Vacation Rentals" },
+      { "label": "Hostels" },
+      { "label": "Campgrounds" },
+      { "label": "Lodges" },
+      { "label": "Inns" },
+      { "label": "Extended Stay Accommodations" },
+      { "label": "Timeshare Accommodations" },
+      { "label": "Corporate Housing" },
+      { "label": "Retirement Homes" },
+      { "label": "Assisted Living Facilities" },
+      { "label": "Cruise Ships" }
+    ]
+  },
+  {
+    "label": "Agriculture",
+    "child": [
+      { "label": "Crop Farming" },
+      { "label": "Livestock Farming" },
+      { "label": "Poultry Farming" },
+      { "label": "Aquaculture" },
+      { "label": "Hydroponics" },
+      { "label": "Vertical Farming" },
+      { "label": "Organic Farming" },
+      { "label": "Sustainable Agriculture" },
+      { "label": "Precision Agriculture" },
+      { "label": "Agroforestry" },
+      { "label": "Agri-Tourism" },
+      { "label": "Horticulture" },
+      { "label": "Plant Breeding" },
+      { "label": "Agri-Inputs" },
+      { "label": "Farm Equipment and Machinery" }
+    ]
+  },
+  {
+    "label": "ArgoTech (Agriculture Technology)",
+    "child": [
+      { "label": "Precision Farming" },
+      { "label": "Farm Management Software" },
+      { "label": "Drone Technology" },
+      { "label": "Robotics in Agriculture" },
+      { "label": "Sensor Technology" },
+      { "label": "Livestock Monitoring" },
+      { "label": "Smart Irrigation Systems" },
+      { "label": "Crop Monitoring" },
+      { "label": "Data Analytics in Agriculture" },
+      { "label": "AI in Agriculture" },
+      { "label": "Vertical Farming Solutions" },
+      { "label": "Agri-Robotics" },
+      { "label": "Agricultural Biotechnology" },
+      { "label": "IoT in Agriculture" },
+      { "label": "Farm-to-Consumer Traceability" }
+    ]
+  },
+  {
+    "label": "AI (Artificial Intelligence)",
+    "child": [
+      { "label": "Machine Learning" },
+      { "label": "Deep Learning" },
+      { "label": "Natural Language Processing" },
+      { "label": "Computer Vision" },
+      { "label": "Speech Recognition" },
+      { "label": "Predictive Analytics" },
+      { "label": "Robotic Process Automation (RPA)" },
+      { "label": "Cognitive Computing" },
+      { "label": "Image and Video Analysis" },
+      { "label": "Virtual Assistants" },
+      { "label": "Automated Decision-Making" },
+      { "label": "Chatbots" },
+      { "label": "Reinforcement Learning" },
+      { "label": "Anomaly Detection" },
+      { "label": "Emotion Recognition" }
+    ]
+  },
+  {
+    "label": "AR/VR (Augmented Reality/Virtual Reality)",
+    "child": [
+      { "label": "Virtual Reality Games" },
+      { "label": "Augmented Reality Apps" },
+      { "label": "AR/VR Training Simulations" },
+      { "label": "Virtual Tours" },
+      { "label": "AR/VR Healthcare Applications" },
+      { "label": "AR/VR Marketing and Advertising" },
+      { "label": "AR/VR Education and Training" },
+      { "label": "AR/VR Architecture and Design" },
+      { "label": "AR/VR Retail Experiences" },
+      { "label": "AR/VR Entertainment" },
+      { "label": "AR/VR Social Media" },
+      { "label": "AR/VR Industrial Applications" },
+      { "label": "AR/VR Real Estate Visualization" },
+      { "label": "AR/VR Sports and Fitness" },
+      { "label": "AR/VR Events and Conferences" }
+    ]
+  },
+  {
+    "label": "Arts",
+    "child": [
+      { "label": "Visual Arts" },
+      { "label": "Performing Arts" },
+      { "label": "Fine Arts" },
+      { "label": "Music" },
+      { "label": "Film and Cinema" },
+      { "label": "Literature" },
+      { "label": "Theater" },
+      { "label": "Dance" },
+      { "label": "Sculpture" },
+      { "label": "Photography" },
+      { "label": "Deisgn" },
+      { "label": "Crafts" },
+      { "label": "Animation" },
+      { "label": "Digital Arts" },
+      { "label": "Mixed Media" }
+    ]
+  },
+  {
+    "label": "Automotive",
+    "child": [
+      { "label": "Car Manufacturing" },
+      { "label": "Automotive Parts and Accessories" },
+      { "label": "Automotive Electronics" },
+      { "label": "Automotive Software" },
+      { "label": "Electric Vehicles" },
+      { "label": "Hybrid Vehicles" },
+      { "label": "Connected Cars" },
+      { "label": "Autonomous Vehicles" },
+      { "label": "Ride-Sharing Services" },
+      { "label": "Car Rental Services" },
+      { "label": "Automotive Repair and Maintenance" },
+      { "label": "Automotive Dealerships" },
+      { "label": "Automotive Financing" },
+      { "label": "Automotive Insurance" },
+      { "label": "Automotive Aftermarket" }
+    ]
+  },
+  {
+    "label": "Beauty and Cosmetics",
+    "child": [
+      { "label": "Skincare Products" },
+      { "label": "Makeup Products" },
+      { "label": "Haircare Products" },
+      { "label": "Fragrances" },
+      { "label": "Personal Care Products" },
+      { "label": "Beauty Salons" },
+      { "label": "Spas and Wellness Centers" },
+      { "label": "Cosmetic Surgery" },
+      { "label": "Beauty Retail" },
+      { "label": "Beauty E-commerce" },
+      { "label": "Beauty Influencer Marketing" },
+      { "label": "Natural and Organic Beauty Products" },
+      { "label": "Men's Grooming Products" },
+      { "label": "Beauty Subscription Boxes" },
+      { "label": "Beauty Technology" }
+    ]
+  },
+  {
+    "label": "Biomedical Engineering",
+    "child": [
+      { "label": "Medical Devices" },
+      { "label": "Biomedical Imaging" },
+      { "label": "Biomechanics" },
+      { "label": "Biomaterials" },
+      { "label": "Tissue Engineering" },
+      { "label": "Regenerative Medicine" },
+      { "label": "Biomedical Sensors" },
+      { "label": "Medical Robotics" },
+      { "label": "Bioinformatics" },
+      { "label": "Nanomedicine" },
+      { "label": "Artificial Organs" },
+      { "label": "Biomedical Instrumentation" },
+      { "label": "Medical Diagnostics" },
+      { "label": "Biomedical Modeling and Simulation" },
+      { "label": "Drug Delivery Systems" }
+    ]
+  },
+  {
+    "label": "Biotechnology (Biotech)",
+    "child": [
+      { "label": "Pharmaceuticals" },
+      { "label": "Medical Biotechnology" },
+      { "label": "Agricultural Biotechnology" },
+      { "label": "Industrial Biotechnology" },
+      { "label": "Biopharmaceuticals" },
+      { "label": "Genetic Engineering" },
+      { "label": "Bioprocessing" },
+      { "label": "Bioremediations" },
+      { "label": "Biofuels" },
+      { "label": "Stem Cell Research" },
+      { "label": "Protein Engineering" },
+      { "label": "Synthetic Biology" },
+      { "label": "Bioinformatics" },
+      { "label": "Microbial Biotechnology" },
+      { "label": "Molecular Diagnostics" }
+    ]
+  },
+  {
+    "label": "Blockchain",
+    "child": [
+      { "label": "Cryptocurrencies" },
+      { "label": "Blockchain Platforms" },
+      { "label": "Smart Contracts" },
+      { "label": "Decentralized Finance (DeFi)" },
+      { "label": "Blockchain Supply Chain" },
+      { "label": "Blockchain Identity Management" },
+      { "label": "Blockchain Voting Systems" },
+      { "label": "Blockchain Energy Solutions" },
+      { "label": "Blockchain Gaming" },
+      { "label": "Blockchain Healthcare Applications" },
+      { "label": "Blockchain Real Estate" },
+      { "label": "Blockchain Insurance" },
+      { "label": "Blockchain Social Impact" },
+      { "label": "Blockchain IoT" },
+      { "label": "Blockchain Legal Services" }
+    ]
+  },
+  {
+    "label": "Business Intelligence (BI)",
+    "child": [
+      { "label": "Data Analytics" },
+      { "label": "Data Visualization" },
+      { "label": "Business Reporting" },
+      { "label": "Data Warehousing" },
+      { "label": "Data Mining" },
+      { "label": "Predictive analytics" },
+      { "label": "Dashboarding" },
+      { "label": "KPI Tracking" },
+      { "label": "Business Performance Management" },
+      { "label": "Data Integration" },
+      { "label": "Big Data Analytics" },
+      { "label": "Self-Service BI" },
+      { "label": "Data Quality Management" },
+      { "label": "Data Governance" },
+      { "label": "BI Consulting Services" }
+    ]
+  },
+  {
+    "label": "Clean Energy (CleanTech)",
+    "child": [
+      { "label": "Solar Power" },
+      { "label": "Wind Power" },
+      { "label": "Hydropower" },
+      { "label": "Geothermal Energy" },
+      { "label": "Bioenergy" },
+      { "label": "Energy Storage" },
+      { "label": "Energy Efficiency" },
+      { "label": "Smart Grids" },
+      { "label": "Electric Vehicles" },
+      { "label": "Green Building Solutions" },
+      { "label": "Renewable Energy Financing" },
+      { "label": "Carbon Capture and Storage" },
+      { "label": "Waste-to-Energy" },
+      { "label": "Sustainable Transportation" },
+      { "label": "Smart Cities" }
+    ]
+  },
+  {
+    "label": "Construction",
+    "child": [
+      { "label": "Residential Construction" },
+      { "label": "Commercial Constuction" },
+      { "label": "Industrial Constuction" },
+      { "label": "Infrastucture Construction" },
+      { "label": "Civil Engineering" },
+      { "label": "Architectural Services" },
+      { "label": "Building Materials" },
+      { "label": "Building Information Modeling (BIM)" },
+      { "label": "Construction Management" },
+      { "label": "Green Building Solutions" },
+      { "label": "Prefabricated Construction" },
+      { "label": "Renovation and Remodeling" },
+      { "label": "Project Management" },
+      { "label": "Construction Technology" },
+      { "label": "Contracting Services" }
+    ]
+  },
+  {
+    "label": "Consulting",
+    "child": [
+      { "label": "Management Consulting" },
+      { "label": "Strategy Consulting" },
+      { "label": "IT Consulting" },
+      { "label": "Financial Consulting" },
+      { "label": "Human Resources Consulting" },
+      { "label": "Marketing Consulting" },
+      { "label": "Operations Consulting" },
+      { "label": "Change Management Consulting" },
+      { "label": "Risk Management Consulting" },
+      { "label": "Supply Chain Consulting" },
+      { "label": "Business Process Consulting" },
+      { "label": "Environmental Consulting" },
+      { "label": "Healthcare Consulting" },
+      { "label": "Technology Consulting" },
+      { "label": "Legal Consulting" }
+    ]
+  },
+  {
+    "label": "Cryptocurrency (Crypto)",
+    "child": [
+      { "label": "Cryptocurrency Mining" },
+      { "label": "Cryptocurrency Exchange" },
+      { "label": "Cryptocurrency Wallets" },
+      { "label": "Blockchain Technology" },
+      { "label": "Initial Coin Offerings (ICOs)" },
+      { "label": "Decentralized Finance (DeFi)" },
+      { "label": "Cryptocurrency Trading" },
+      { "label": "Cryptocurrency Payments" },
+      { "label": "Cryptocurrency Lending" },
+      { "label": "Stablecoins" },
+      { "label": "Cryptocurrency Investment Funds" },
+      { "label": "Cryptocurrency Regulation" },
+      { "label": "Cryptocurrency Tax Services" },
+      { "label": "Cryptocurrency Security" },
+      { "label": "Cryptocurrency Analytics" }
+    ]
+  },
+  {
+    "label": "Cybersecurity (Cybersec)",
+    "child": [
+      { "label": "Network Security" },
+      { "label": "Endpoint Security" },
+      { "label": "Cloud Security" },
+      { "label": "Application Security" },
+      { "label": "Data Security" },
+      { "label": "Identity and Access Management" },
+      { "label": "Security Information and Event Management (SIEM)" },
+      { "label": "Threat Intelligence" },
+      { "label": "Vulnerability Management" },
+      { "label": "Security Testing" },
+      { "label": "Security Consulting" },
+      { "label": "Incident Response" },
+      { "label": "Data Privacy" },
+      { "label": "Cybersecurity Training" },
+      { "label": "Managed Security Services" }
+    ]
+  },
+  {
+    "label": "Data Science",
+    "child": [
+      { "label": "Data Analytics" },
+      { "label": "Machine Learning" },
+      { "label": "Statistical Analysis" },
+      { "label": "Data Visualization" },
+      { "label": "Predictive Modeling" },
+      { "label": "Data Engineering" },
+      { "label": "Big Data Analytics" },
+      { "label": "Natural Language Processing" },
+      { "label": "Deep Learning" },
+      { "label": "Time Series Analysis" },
+      { "label": "Data Mining" },
+      { "label": "Text Analytics" },
+      { "label": "Data Warehousing" },
+      { "label": "Business Intelligence" },
+      { "label": "Data Governance" }
+    ]
+  },
+  {
+    "label": "E-commerce (E-comm)",
+    "child": [
+      { "label": "Online Retail" },
+      { "label": "Marketplace Platforms" },
+      { "label": "E-commerce Software" },
+      { "label": "Payment Gateways" },
+      { "label": "Order Fulfillment" },
+      { "label": "Inventory Management" },
+      { "label": "Digital Marketing for E-commerce" },
+      { "label": "Mobile Commerce" },
+      { "label": "Cross-border E-commerce" },
+      { "label": "E-commerce Analytics" },
+      { "label": "Customer Relationship Management (CRM)" },
+      { "label": "E-commerce Consulting" },
+      { "label": "E-commerce Logistics" },
+      { "label": "Subscription E-commerce" },
+      { "label": "Social Commerce" }
+    ]
+  },
+  {
+    "label": "Education Technology (EdTech)",
+    "child": [
+      { "label": "Online Learning Platforms" },
+      { "label": "E-learning Content" },
+      { "label": "Virtual Classrooms" },
+      { "label": "Education Apps" },
+      { "label": "Gamification in Education" },
+      { "label": "Learning Management Systems (LMS)" },
+      { "label": "Educational Robotics" },
+      { "label": "Adaptive Learning" },
+      { "label": "Artificial Intelligence in Education" },
+      { "label": "Augmented Reality in Education" },
+      { "label": "Personalized Learning" },
+      { "label": "Education Analytics" },
+      { "label": "STEM Education" },
+      { "label": "Language Learning Platforms" },
+      { "label": "Education Consulting" }
+    ]
+  },
+  {
+    "label": "Energy",
+    "child": [
+      { "label": "Oil and Gas" },
+      { "label": "Electric Power Generation" },
+      { "label": "Renewable Energy" },
+      { "label": "Energy Distribution" },
+      { "label": "Energy Trading" },
+      { "label": "Energy Consulting" },
+      { "label": "Energy Storage" },
+      { "label": "Energy Efficiency" },
+      { "label": "Energy Infrastructure" },
+      { "label": "Energy Management" },
+      { "label": "Energy Response" },
+      { "label": "Microgrids" },
+      { "label": "Energy Finance" },
+      { "label": "Energy Policy and Regulation" },
+      { "label": "Energy Research and Development" }
+    ]
+  },
+  {
+    "label": "Entertainment",
+    "child": [
+      { "label": "Film and Television Production" },
+      { "label": "Music Production" },
+      { "label": "Live Events and Concerts" },
+      { "label": "Streaming Services" },
+      { "label": "Gaming" },
+      { "label": "Online Media" },
+      { "label": "Digital Content Creation" },
+      { "label": "Celebrity Management" },
+      { "label": "Event Planning and Management" },
+      { "label": "Talent Agencies" },
+      { "label": "Animation and VFX" },
+      { "label": "Content Distribution" },
+      { "label": "Entertainment Marketing" },
+      { "label": "Entertainment Technology" },
+      { "label": "Entertainment Journalism" }
+    ]
+  },
+  {
+    "label": "Environmental Services",
+    "child": [
+      { "label": "Environmental Consulting" },
+      { "label": "Environmental Remediation" },
+      { "label": "Waste Management" },
+      { "label": "Water and Wastewater Treatment" },
+      { "label": "Air Pollution Control" },
+      { "label": "Hazardous Materials Management" },
+      { "label": "Sustainability Consulting" },
+      { "label": "Ecological Restoration" },
+      { "label": "Environmental Monitoring" },
+      { "label": "Environmental Impact Assessment" },
+      { "label": "Renewable Energy Consulting" },
+      { "label": "Climate Change Adaptation" },
+      { "label": "Environmental Education" },
+      { "label": "Environmental Policy" },
+      { "label": "Environmental Data Management" }
+    ]
+  },
+  {
+    "label": "Fashion and Apparel",
+    "child": [
+      { "label": "Fashion Design" },
+      { "label": "Apparel Manufacturing" },
+      { "label": "Fashion E-commerce" },
+      { "label": "Fashion Retail" },
+      { "label": "Luxury Fashion" },
+      { "label": "Sustainable Fashion" },
+      { "label": "Fashion Tech" },
+      { "label": "Fashion Accessories" },
+      { "label": "Streetwear" },
+      { "label": "Fashion Styling" },
+      { "label": "Fashion Consulting" },
+      { "label": "Fashion Marketing and PR" },
+      { "label": "Fashion Events and Shows" },
+      { "label": "Fashion Media" },
+      { "label": "Fashion Modeling" }
+    ]
+  },
+  {
+    "label": "Finance",
+    "child": [
+      { "label": "Banking" },
+      { "label": "Investment Banking" },
+      { "label": "Retail Banking" },
+      { "label": "Corporate Finance" },
+      { "label": "Asset Management" },
+      { "label": "Financial Planning" },
+      { "label": "Wealth Management" },
+      { "label": "Private Equity" },
+      { "label": "Venture Capital" },
+      { "label": "Hedge Funds" },
+      { "label": "Insurance" },
+      { "label": "Financial Technology (FinTech)" },
+      { "label": "Stock Trading" },
+      { "label": "Mortgage and Lending" },
+      { "label": "Credit Cards and Payments" }
+    ]
+  },
+  {
+    "label": "Food Services",
+    "child": [
+      { "label": "Restaurants" },
+      { "label": "Catering Services" },
+      { "label": "Food Delivery" },
+      { "label": "Food Trucks" },
+      { "label": "Fast Food Chains" },
+      { "label": "Coffee Shops" },
+      { "label": "Bakeries" },
+      { "label": "Fine Dining" },
+      { "label": "Food Court and Cafeterias" },
+      { "label": "Food and Beverage Franchises" },
+      { "label": "Frozen Food Production" },
+      { "label": "Food Safety and Inspection" },
+      { "label": "Food Packaging and Distribution" },
+      { "label": "Food Waste Management" },
+      { "label": "Food Consulting" }
+    ]
+  },
+  {
+    "label": "Food Technology (FoodTech)",
+    "child": [
+      { "label": "Food Delivery Platforms" },
+      { "label": "Online Grocery" },
+      { "label": "Meal Kit Services" },
+      { "label": "Food and Recipe Apps" },
+      { "label": "Food Packaging Technology" },
+      { "label": "Agricultural Technology" },
+      { "label": "Food Supply Chain Management" },
+      { "label": "Food Tranceability" },
+      { "label": "Food Safety Technology" },
+      { "label": "Food Waste Solutions" },
+      { "label": "Precision Agriculture" },
+      { "label": "Vertical Farming" },
+      { "label": "Alternative Proteins" },
+      { "label": "Food Biotechnology" },
+      { "label": "Food Analytics and AI" }
+    ]
+  },
+  {
+    "label": "Gaming",
+    "child": [
+      { "label": "Video Games" },
+      { "label": "Mobile Games" },
+      { "label": "Console Games" },
+      { "label": "PC Games" },
+      { "label": "Online Gaming" },
+      { "label": "Game Development" },
+      { "label": "Game Publishing" },
+      { "label": "Esports" },
+      { "label": "Game Streaming" },
+      { "label": "Game Design" },
+      { "label": "Game Monetization" },
+      { "label": "Gaming Accessories" },
+      { "label": "Virtual Reality Games" },
+      { "label": "Augmented Reality Games" },
+      { "label": "Gaming Communities" }
+    ]
+  },
+  {
+    "label": "Government Contracting",
+    "child": [
+      { "label": "Defense Contracting" },
+      { "label": "IT and Technology Contracting" },
+      { "label": "Construction Contracting" },
+      { "label": "Professional Services Contracting" },
+      { "label": "Healthcare Contracting" },
+      { "label": "Aerospace Constracting" },
+      { "label": "Energy Contracting" },
+      { "label": "Research and Development Contracting" },
+      { "label": "Infrastructure Contracting" },
+      { "label": "Transportation Contracting" },
+      { "label": "Environmental Contracting" },
+      { "label": "Security Contracting" },
+      { "label": "Consulting Services Contracting" },
+      { "label": "Facilities Management Contracting" },
+      { "label": "Government Contracting Support Services" }
+    ]
+  },
+  {
+    "label": "Healthcare",
+    "child": [
+      { "label": "Hospitals" },
+      { "label": "Clinics" },
+      { "label": "Medical Laboratories" },
+      { "label": "Pharmacies" },
+      { "label": "Healthcare IT" },
+      { "label": "Telemedicine" },
+      { "label": "Healthcare Consulting" },
+      { "label": "Healthcare Insurance" },
+      { "label": "Medical Devices" },
+      { "label": "Pharmaceuticals" },
+      { "label": "Biotechnology" },
+      { "label": "Healthcare Education" },
+      { "label": "Healthcare Research" },
+      { "label": "Healthcare Policy and Regulation" },
+      { "label": "Healthcare Data Management" }
+    ]
+  },
+  {
+    "label": "Healthcare Technology (HealthTech)",
+    "child": [
+      { "label": "Electronic Health Records (EHR)" },
+      { "label": "Healthcare Data Analytics" },
+      { "label": "Telehealth" },
+      { "label": "Medical Imaging Technology" },
+      { "label": "Healthcare Robotics" },
+      { "label": "Artificial Intelligence in Healthcare" },
+      { "label": "Healthcare Apps" },
+      { "label": "Medical Wearables" },
+      { "label": "Healthcare Information Systems" },
+      { "label": "Healthcare Security Solutions" },
+      { "label": "Precision Medicine" },
+      { "label": "Healthcare IoT" },
+      { "label": "Healthcare Communcation Systems" },
+      { "label": "Healthcare Virtual Reality" },
+      { "label": "Medical Simulation Technology" }
+    ]
+  },
+  {
+    "label": "Hospitality",
+    "child": [
+      { "label": "Hotels and Resorts" },
+      { "label": "Restaurants" },
+      { "label": "Catering Services" },
+      { "label": "Event Management" },
+      { "label": "Travel and Tourism" },
+      { "label": "Hospitality Consulting" },
+      { "label": "Hospitality Training and Education" },
+      { "label": "Hospitality Design and Architecture" },
+      { "label": "Spa and Wellness Services" },
+      { "label": "Hospitality Real Estate" },
+      { "label": "Hospitality Revenue Management" },
+      { "label": "Hotel Operations Management" },
+      { "label": "Hospitality Sustainability" }
+    ]
+  },
+  {
+    "label": "Human Resources (HR)",
+    "child": [
+      { "label": "Recruitment and Talent Acquisition" },
+      { "label": "HR Consulting" },
+      { "label": "Employee Benefits" },
+      { "label": "Payroll Services" },
+      { "label": "Performance Management" },
+      { "label": "Training and Development" },
+      { "label": "HR Technology" },
+      { "label": "Employee Engagement" },
+      { "label": "Workforce Analytics" },
+      { "label": "Compensation and Rewards" },
+      { "label": "HR Outsourcing" },
+      { "label": "HR Software" },
+      { "label": "HR Compliance" },
+      { "label": "Diversity and Inclusion" },
+      { "label": "HR Data Management" }
+    ]
+  },
+  {
+    "label": "Information Technology (IT)",
+    "child": [
+      { "label": "Software Development" },
+      { "label": "Web Development" },
+      { "label": "Mobile App Development" },
+      { "label": "IT Consulting" },
+      { "label": "Cloud Computing" },
+      { "label": "Cybersecurity" },
+      { "label": "Network Infrastructure" },
+      { "label": "Database Management" },
+      { "label": "IT Support and Services" },
+      { "label": "IT Project Management" },
+      { "label": "IT Outsourcing" },
+      { "label": "IT Training and Education" },
+      { "label": "IT Hardware" },
+      { "label": "IT Software Solutions" },
+      { "label": "IT Innovation and Research" }
+    ]
+  },
+  {
+    "label": "Internet of Things (IoT)",
+    "child": [
+      { "label": "Connected Devices" },
+      { "label": "Smart Home Systems" },
+      { "label": "Industrial IoT" },
+      { "label": "Smart Cities" },
+      { "label": "IoT Sensors" },
+      { "label": "IoT Platforms" },
+      { "label": "IoT Analytics" },
+      { "label": "IoT Security" },
+      { "label": "IoT Data Management" },
+      { "label": "IoT Networking" },
+      { "label": "IoT Healthcare Applications" },
+      { "label": "IoT Energy Solutions" },
+      { "label": "IoT Agriculture" },
+      { "label": "IoT Transportation" },
+      { "label": "IoT Retail Solutions" }
+    ]
+  },
+  {
+    "label": "Logistics and Supply Chain",
+    "child": [
+      { "label": "Warehousing and Distribution" },
+      { "label": "Inventory Management" },
+      { "label": "Transportation Management" },
+      { "label": "Supply Chain Analytics" },
+      { "label": "Freight Forwarding" },
+      { "label": "Third-Party Logistics (3PL)" },
+      { "label": "E-commerce Fulfillment" },
+      { "label": "Reverse Logistics" },
+      { "label": "Last-Mile Delivery" },
+      { "label": "Supply Chain Visibility" },
+      { "label": "Supply Chain Automation" },
+      { "label": "Cold Chain Logistics" },
+      { "label": "Supply Chain Consulting" },
+      { "label": "Supply Chain Optimization" },
+      { "label": "Inventory Forecasting" }
+    ]
+  },
+  {
+    "label": "Manufacturing",
+    "child": [
+      { "label": "Product Design" },
+      { "label": "Prototyping" },
+      { "label": "Assembly and Fabrication" },
+      { "label": "Quality Control" },
+      { "label": "Lean Manufacturing" },
+      { "label": "Industrial Automation" },
+      { "label": "Manufacturing Robotics" },
+      { "label": "Supply Chain Management" },
+      { "label": "Inventory Management" },
+      { "label": "Logistics and Distribution" },
+      { "label": "Sustainable Manufacturing" },
+      { "label": "Additive Manufacturing" },
+      { "label": "Contract Manufacturing" },
+      { "label": "Custom Manufacturing" },
+      { "label": "Manufacturing ERP Systems" }
+    ]
+  },
+  {
+    "label": "Marketing and Advertising",
+    "child": [
+      { "label": "Digital Marketing" },
+      { "label": "Social Media Marketing" },
+      { "label": "Content Marketing" },
+      { "label": "Search Engine Optimization (SEO)" },
+      { "label": "Search Engine Marketing (SEM)" },
+      { "label": "Email Marketing" },
+      { "label": "Influencer Marketing" },
+      { "label": "Branding and Identity" },
+      { "label": "Marketing Strategy" },
+      { "label": "Market Research" },
+      { "label": "Advertising Campaigns" },
+      { "label": "Media Buying" },
+      { "label": "Public Relations" },
+      { "label": "Event Marketing" },
+      { "label": "Marketing Analytics" }
+    ]
+  },
+  {
+    "label": "Media and Publishing",
+    "child": [
+      { "label": "Publishing" },
+      { "label": "Print Media" },
+      { "label": "Digital Media" },
+      { "label": "Broadcast Media" },
+      { "label": "Film Production" },
+      { "label": "Television Production" },
+      { "label": "Radio Broadcasting" },
+      { "label": "Podcasting" },
+      { "label": "News and Journalism" },
+      { "label": "Content Creation" },
+      { "label": "Content Distribution" },
+      { "label": "Content Marketing" },
+      { "label": "Media Streaming" },
+      { "label": "Media Technology" },
+      { "label": "Media Analytics" }
+    ]
+  },
+  {
+    "label": "Mobility as a Service (MaaS)",
+    "child": [
+      { "label": "Ride-Hailing" },
+      { "label": "Carsharing" },
+      { "label": "Bikesharing" },
+      { "label": "Scootersharing" },
+      { "label": "Micro-Mobility Solutions" },
+      { "label": "Public Transit" },
+      { "label": "Mobility Aggregators" },
+      { "label": "Multi-Modal Transportation" },
+      { "label": "Mobility Payment Solutions" },
+      { "label": "Real-Time Transporation Information" },
+      { "label": "Mobility Analytics" },
+      { "label": "Intelligence Transportation Systems" },
+      { "label": "Mobility Infrastructure" },
+      { "label": "Mobility Consulting" },
+      { "label": "Mobility Integration" }
+    ]
+  },
+  {
+    "label": "Nonprofit",
+    "child": [
+      { "label": "Fundraising" },
+      { "label": "Grant Writing" },
+      { "label": "Nonprofit Management" },
+      { "label": "Volunteer Management" },
+      { "label": "Program Development" },
+      { "label": "Community Outreach" },
+      { "label": "Advocacy and Policy" },
+      { "label": "Social Services" },
+      { "label": "Education and Training" },
+      { "label": "Healthcare Services" },
+      { "label": "Environmental Conservation" },
+      { "label": "Arts and Culture" },
+      { "label": "Humanitarian Aid" },
+      { "label": "Disaster Relief" },
+      { "label": "Nonprofit Consulting" }
+    ]
+  },
+  {
+    "label": "Pharmaceuticals (Pharma)",
+    "child": [
+      { "label": "Drug Discovery" },
+      { "label": "Drug Development" },
+      { "label": "Clinical Trials" },
+      { "label": "Pharmaceutical Manufacturing" },
+      { "label": "Pharmaceutical Distribution" },
+      { "label": "Pharmaceutical Packaging" },
+      { "label": "Pharmaceutical Regulatory Affairs" },
+      { "label": "Pharmaceutical Research and Development" },
+      { "label": "Pharmaceutical Sales and Marketing" },
+      { "label": "Pharmaceutical Quality Control" },
+      { "label": "Pharmaceutical Supply Chain" },
+      { "label": "Pharmaceutical Consulting" },
+      { "label": "Pharmaceutical Contract Manufacturing" },
+      { "label": "Pharmaceutical Biotechnology" },
+      { "label": "Pharmaceutical Data Analytics" }
+    ]
+  },
+  {
+    "label": "Professional Services",
+    "child": [
+      { "label": "Legal Services" },
+      { "label": "Accounting Services" },
+      { "label": "Financial Consulting" },
+      { "label": "Human Resources Consulting" },
+      { "label": "Management Consulting" },
+      { "label": "IT Consulting" },
+      { "label": "Marketing Consulting" },
+      { "label": "Engineering Services" },
+      { "label": "Architectural Services" },
+      { "label": "Design Services" },
+      { "label": "Translation and Localization Services" },
+      { "label": "Business Coaching" },
+      { "label": "Research and Development Services" },
+      { "label": "Quality Assurance Services" },
+      { "label": "Risk Management Services" }
+    ]
+  },
+  {
+    "label": "Public Administration",
+    "child": [
+      { "label": "Government Services" },
+      { "label": "Public Policy Development" },
+      { "label": "Public Finance" },
+      { "label": "Public Health" },
+      { "label": "Public Safety" },
+      { "label": "Emergency Management" },
+      { "label": "Public Infrastucture" },
+      { "label": "Urban Planning" },
+      { "label": "Environmental Protection" },
+      { "label": "Social Services" },
+      { "label": "Education Services" },
+      { "label": "Transportation Services" },
+      { "label": "Regulatory Compliance" },
+      { "label": "Public Records Management" },
+      { "label": "Public Administration Consulting" }
+    ]
+  },
+  {
+    "label": "Quantum Computing",
+    "child": [
+      { "label": "Quantum Algorithms" },
+      { "label": "Quantum Hardware" },
+      { "label": "Quantum Software" },
+      { "label": "Quantum Simulations" },
+      { "label": "Quantum Cryptography" },
+      { "label": "Quantum Machine Learning" },
+      { "label": "Quantum Sensing" },
+      { "label": "Quantum Communication" },
+      { "label": "Quantum Metrology" },
+      { "label": "Quantum Error Correction" },
+      { "label": "Quantum Networking" },
+      { "label": "Quantum Cloud Computing" },
+      { "label": "Quantum AI" },
+      { "label": "Quantum Chemistry" },
+      { "label": "Quantum Financial Services" }
+    ]
+  },
+  {
+    "label": "Real Estate",
+    "child": [
+      { "label": "Residential Real Estate" },
+      { "label": "Commercial Real Estate" },
+      { "label": "Real Estate Development" },
+      { "label": "Real Estate Investment" },
+      { "label": "Property Management" },
+      { "label": "Real Estate Brokerage" },
+      { "label": "Real Estate Appraisal" },
+      { "label": "Real Estate Finance" },
+      { "label": "Real Estate Consulting" },
+      { "label": "Real Estate Marketing" },
+      { "label": "Real Estate Technology" },
+      { "label": "Sustainable Real Estate" },
+      { "label": "Real Estate Law" },
+      { "label": "Real Estate Construction" },
+      { "label": "Real Estate Data Analytics" }
+    ]
+  },
+  {
+    "label": "Renewable Energy (Renewables)",
+    "child": [
+      { "label": "Solar Power" },
+      { "label": "Wind Power" },
+      { "label": "Hydropower" },
+      { "label": "Geothermal Energy" },
+      { "label": "Biomass Energy" },
+      { "label": "Biofuels" },
+      { "label": "Tidal Energy" },
+      { "label": "Wave Energy" },
+      { "label": "Hydrogen Energy" },
+      { "label": "Energy Storage" },
+      { "label": "Renewable Energy Financing" },
+      { "label": "Renewable Energy Consulting" },
+      { "label": "Renewable Energy Policy" },
+      { "label": "Renewable Energy Integration" },
+      { "label": "Renewable Energy Research and Development" }
+    ]
+  },
+  {
+    "label": "Research and Development (R&D)",
+    "child": [
+      { "label": "Scientific Research" },
+      { "label": "Technological Development" },
+      { "label": "Experimental Development" },
+      { "label": "Innovation Consulting" },
+      { "label": "Product Development" },
+      { "label": "Process Improvement" },
+      { "label": "R&D Financing" },
+      { "label": "R&D Collaboration" },
+      { "label": "R&D Analytics" },
+      { "label": "R&D Management" },
+      { "label": "R&D Outsourcing" },
+      { "label": "R&D Tax Credits" },
+      { "label": "R&D Facilities" },
+      { "label": "R&D Partnerships" },
+      { "label": "R&D Commercialization" }
+    ]
+  },
+  {
+    "label": "Retail",
+    "child": [
+      { "label": "Brick-and-Mortar Retail" },
+      { "label": "E-commerce Retail" },
+      { "label": "Department Stores" },
+      { "label": "Supermarkets" },
+      { "label": "Specialty Retail" },
+      { "label": "Apparel Retail" },
+      { "label": "Electronics Retail" },
+      { "label": "Furniture and Home Decor Retail" },
+      { "label": "Health and Beauty Retail" },
+      { "label": "Convenience Stores" },
+      { "label": "Franchise Retail" },
+      { "label": "Discount Stores" },
+      { "label": "Online Marketplaces" },
+      { "label": "Luxury Retail" },
+      { "label": "Retail Analytics" }
+    ]
+  },
+  {
+    "label": "Robotics and Automation",
+    "child": [
+      { "label": "Industrial Robotics" },
+      { "label": "Collaborative Robots (Cobots)" },
+      { "label": "Service Robotics" },
+      { "label": "Autonomous Vehicles" },
+      { "label": "Drone Technology" },
+      { "label": "Artificial Intelligence in Robotics" },
+      { "label": "Robotics Process Automation (RPA)" },
+      { "label": "Robotics Software" },
+      { "label": "Robitics Sensors and Perception" },
+      { "label": "Robotics Vision Systems" },
+      { "label": "Robotics Control Systems" },
+      { "label": "Robotics Simulation" },
+      { "label": "Robotics Consulting" },
+      { "label": "Robotics Education and Training" },
+      { "label": "Robotics Integration" }
+    ]
+  },
+  {
+    "label": "Saas",
+    "child": [
+      { "label": "Customer Relationship Management (CRM)" },
+      { "label": "Human Resources Management (HRM)" },
+      { "label": "Enterprise Resource Planning (ERP)" },
+      { "label": "Project Management" },
+      { "label": "Collaboration and Communication" },
+      { "label": "Marketing Automation" },
+      { "label": "Sales Management" },
+      { "label": "Customer Support" },
+      { "label": "Analytics and Business Intelligence" },
+      { "label": "Supply Chain Management" },
+      { "label": "E-commerce Platforms" },
+      { "label": "Data Management" },
+      { "label": "Secuirty and Compliance" },
+      { "label": "Workflow and Productivity" }
+    ]
+  },
+  {
+    "label": "Smart Home Automation (Smart Home)",
+    "child": [
+      { "label": "Home Security Systems" },
+      { "label": "Smart Lighting" },
+      { "label": "Smart Heating and Cooling" },
+      { "label": "Smart Appliances" },
+      { "label": "Home Entertainment Systems" },
+      { "label": "Smart Energy Management" },
+      { "label": "Smart Home Sensors" },
+      { "label": "Smart Locks and Access Control" },
+      { "label": "Smart Home Voice Assistants" },
+      { "label": "Smart Home Networks" },
+      { "label": "Smart Home Automation Platforms" },
+      { "label": "Smart Home Integration" },
+      { "label": "Smart Home Monitoring and Control" },
+      { "label": "Smart Home Installation Services" },
+      { "label": "Smart Home Consulting" }
+    ]
+  },
+  {
+    "label": "Social Impact",
+    "child": [
+      { "label": "Social Entrepreneurship" },
+      { "label": "Corporate Social Responsibility" },
+      { "label": "Impact Investing" },
+      { "label": "Sustainable Development" },
+      { "label": "Social Innovation" },
+      { "label": "Ethical Sourcing" },
+      { "label": "Environmental Conservation" },
+      { "label": "Poverty Alleviation" },
+      { "label": "Education Access" },
+      { "label": "Healthcare Access" },
+      { "label": "Gender Equality" },
+      { "label": "Human Rights" },
+      { "label": "Community Development" },
+      { "label": "Disaster Relief" },
+      { "label": "Social Impact Consulting" }
+    ]
+  },
+  {
+    "label": "Sustainability",
+    "child": [
+      { "label": "Renewable Energy" },
+      { "label": "Energy Efficiency" },
+      { "label": "Circular Economy" },
+      { "label": "Waste Management" },
+      { "label": "Water Conservation" },
+      { "label": "Sustainable Agriculture" },
+      { "label": "Sustainable Transportation" },
+      { "label": "Green Building" },
+      { "label": "Sustainable Packaging" },
+      { "label": "Carbon Footprint Reduction" },
+      { "label": "Climate Change Adaptation" },
+      { "label": "Environmental Policy" },
+      { "label": "Eco-friendly Products" },
+      { "label": "Sustainability Reporting" },
+      { "label": "Sustainability Consulting" }
+    ]
+  },
+  {
+    "label": "Social Media",
+    "child": [
+      { "label": "Social Media Marketing" },
+      { "label": "Social Media Management" },
+      { "label": "Social Media Advertising" },
+      { "label": "Influencer Marketing" },
+      { "label": "Content Creation" },
+      { "label": "Community Management" },
+      { "label": "Social Media Analytics" },
+      { "label": "Social Listening" },
+      { "label": "Social Media Strategy" },
+      { "label": "Social Media Monitering" },
+      { "label": "Social Media Consulting" },
+      { "label": "Social Media Training" },
+      { "label": "Social Media Tools and Software" },
+      { "label": "Social Media Campaigns" },
+      { "label": "Social Media Influencers" }
+    ]
+  },
+  {
+    "label": "Space Exploration",
+    "child": [
+      { "label": "Satellite Technology" },
+      { "label": "Space Lanuch Systems" },
+      { "label": "Spacecraft Design and Development" },
+      { "label": "Space Communications" },
+      { "label": "Space Robotics" },
+      { "label": "Astrobiology" },
+      { "label": "Planetary Science" },
+      { "label": "Space Tourism" },
+      { "label": "Space Mining" },
+      { "label": "Space Observation and Imaging" },
+      { "label": "Space Weather Forecasting" },
+      { "label": "Space Navigation and Positioning" },
+      { "label": "Space Medicine" },
+      { "label": "Space Policy and Regulation" },
+      { "label": "Space Education and Outreach" }
+    ]
+  },
+  {
+    "label": "Sports",
+    "child": [
+      { "label": "Sports Apparel" },
+      { "label": "Sports Equipment" },
+      { "label": "Sports Leagues and Teams" },
+      { "label": "Sports Events and Conferences" },
+      { "label": "Sports Media" },
+      { "label": "Sports Technology" },
+      { "label": "Sports Betting" },
+      { "label": "Sports Analytics" },
+      { "label": "Sports Performance Enhancement" },
+      { "label": "Sports Training and Coaching" },
+      { "label": "Sports Medicine" },
+      { "label": "Sports Sponsorship" },
+      { "label": "Esports" },
+      { "label": "Fantasy Sports" },
+      { "label": "Sports Consulting" }
+    ]
+  },
+  {
+    "label": "Telecommunications (Telecom)",
+    "child": [
+      { "label": "Telecommunication Networks" },
+      { "label": "Wireless Communication" },
+      { "label": "Fiber Optic Communication" },
+      { "label": "Satellite Communication" },
+      { "label": "Mobile Communication" },
+      { "label": "Telecommunication Infrastructure" },
+      { "label": "Telecom Equipment" },
+      { "label": "Telecom Services" },
+      { "label": "Telecom Consulting" },
+      { "label": "Telecom Software" },
+      { "label": "Unified Communications" },
+      { "label": "Internet Service Providers (ISPs)" },
+      { "label": "Voice over IP (VoIP)" },
+      { "label": "Telecom Security" },
+      { "label": "Telecom Regulatory Compliance" }
+    ]
+  },
+  {
+    "label": "Tourism and Travel",
+    "child": [
+      { "label": "Travel Agencies" },
+      { "label": "Online Travel Booking" },
+      { "label": "Tour Operators" },
+      { "label": "Hotel and Accommodation Services" },
+      { "label": "Airline Services" },
+      { "label": "Cruise Lines" },
+      { "label": "Travel Technology" },
+      { "label": "Travel Planning and Itinerary" },
+      { "label": "Destination Management" },
+      { "label": "Adventure Tourism" },
+      { "label": "Ecotourism" },
+      { "label": "Cultural Tourism" },
+      { "label": "Medical Tourism" },
+      { "label": "Travel Insurance" },
+      { "label": "Tourism Marketing" }
+    ]
+  },
+  {
+    "label": "Transportation",
+    "child": [
+      { "label": "Freight Transportation" },
+      { "label": "Passenger Transportation" },
+      { "label": "Logistics Services" },
+      { "label": "Supply Chain Management" },
+      { "label": "Shipping and Maritime" },
+      { "label": "Aviation" },
+      { "label": "Rail Transportation" },
+      { "label": "Trucking and Haulage" },
+      { "label": "Public Transportation" },
+      { "label": "Urban Mobility" },
+      { "label": "Autonomous Vehicles" },
+      { "label": "Transportation Technology" },
+      { "label": "Transportation Infrastucture" },
+      { "label": "Transportation Consulting" },
+      { "label": "Transportation Planning" }
+    ]
+  },
+  {
+    "label": "Waste Management and Recycling",
+    "child": [
+      { "label": "Waste Collection" },
+      { "label": "Waste Disposal" },
+      { "label": "Recycling Services" },
+      { "label": "Composting" },
+      { "label": "Hazardous Waste Management" },
+      { "label": "Waste-to-Energy" },
+      { "label": "E-waste Recycling" },
+      { "label": "Plastic Recycling" },
+      { "label": "Paper Recycling" },
+      { "label": "Metal Recycling" },
+      { "label": "Glass Recycling" },
+      { "label": "Organic Waste Recycling" },
+      { "label": "Waste Management Consulting" },
+      { "label": "Waste Management Technology" },
+      { "label": "Circular Economy Solutions" }
+    ]
+  },
+  {
+    "label": "Wholesale",
+    "child": [
+      { "label": "Wholesale Trade" },
+      { "label": "Wholesale Distribution" },
+      { "label": "Wholesale E-commerce" },
+      { "label": "Wholesale Retail" },
+      { "label": "Wholesale Marketplaces" },
+      { "label": "Wholesale B2B Platforms" },
+      { "label": "Wholesale Logistics" },
+      { "label": "Wholesale Pricing and Negotiation" },
+      { "label": "Wholesale Supply Chain" },
+      { "label": "Wholesale Financing" },
+      { "label": "Wholesale Consulting" },
+      { "label": "Wholesale Sourcing" },
+      { "label": "Wholesale Data Analytics" },
+      { "label": "Wholesale Procurement" },
+      { "label": "Wholesale Relationship Management" }
+    ]
+  },
+  {
+    "label": "Financial Technology (FinTech)",
+    "child": [
+      { "label": "Digital Payments" },
+      { "label": "Peer-to-Peer Lending" },
+      { "label": "Online Banking" },
+      { "label": "Personal Finance Management" },
+      { "label": "Financial Analytics" },
+      { "label": "Blockchain and Cryptocurrency" },
+      { "label": "Insurtech" },
+      { "label": "Robo-Advisory" },
+      { "label": "Alternative Lending" },
+      { "label": "Regtech" },
+      { "label": "Wealthtech" },
+      { "label": "Open Banking" },
+      { "label": "Payment Processing" },
+      { "label": "Mobile Wallets" },
+      { "label": "Financial APIs" }
+    ]
+  }
+]
