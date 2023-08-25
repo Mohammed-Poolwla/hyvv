@@ -1,0 +1,683 @@
+.rst__rowWrapper {
+  padding: 8px 0px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.rst__rtl.rst__rowWrapper {
+  padding: 10px 0 10px 10px;
+}
+
+.rst__row {
+  height: 100%;
+  display: flex;
+}
+
+.subTask .rst__row:hover {
+  background-color: white;
+}
+
+.rst__row > * {
+  box-sizing: border-box;
+}
+
+/**
+   * The outline of where the element will go if dropped, displayed while dragging
+   */
+.rst__rowLandingPad,
+.rst__rowCancelPad {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.rst__rowLandingPad > *,
+.rst__rowCancelPad > * {
+  opacity: 0 !important;
+}
+.rst__rowLandingPad::before,
+.rst__rowCancelPad::before {
+  background-color: lightblue;
+  border: 3px dashed white;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/**
+   * Alternate appearance of the landing pad when the dragged location is invalid
+   */
+.rst__rowCancelPad::before {
+  background-color: #e6a8ad;
+}
+
+/**
+   * Nodes matching the search conditions are highlighted
+   */
+.rst__rowSearchMatch {
+  outline: solid 3px #0080ff;
+}
+
+/**
+   * The node that matches the search conditions and is currently focused
+   */
+.rst__rowSearchFocus {
+  outline: solid 3px #fc6421;
+}
+
+.rst__rowContents,
+.rst__rowLabel,
+.rst__rowToolbar,
+.rst__moveHandle,
+.rst__toolbarButton {
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.rst__rowContents {
+  position: relative;
+  height: 100%;
+  border-left: none;
+  flex: 1;
+  border-radius: 2px;
+  min-width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rst__rtl.rst__rowContents {
+  border-right: none;
+  border-left: solid #bbb 1px;
+  padding: 0 10px 0 5px;
+}
+
+/* .rst__rowContentsDragDisabled {
+} */
+
+.rst__rtl.rst__rowContentsDragDisabled {
+  border-right: solid #bbb 1px;
+  border-left: solid #bbb 1px;
+}
+
+.rst__rowLabel {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+.rst__rtl.rst__rowLabel {
+  padding-left: 20px;
+  width: 100%;
+  padding-right: inherit;
+}
+
+.rst__rowToolbar {
+  flex: 0 1 auto;
+  display: flex;
+}
+
+.rst__moveHandle,
+.rst__loadingHandle {
+  height: 100%;
+  width: 44px;
+  cursor: move;
+  border-radius: 1px;
+  z-index: 1;
+  position: absolute;
+}
+
+.rst__loadingHandle {
+  cursor: default;
+}
+
+@keyframes pointFade {
+  0%,
+  19.999%,
+  100% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+
+.rst__loadingCircle {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  position: relative;
+}
+
+.rst__loadingCirclePoint {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rst__rtl.rst__loadingCirclePoint {
+  right: 0;
+  left: initial;
+}
+
+.rst__loadingCirclePoint::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 11%;
+  height: 30%;
+  background-color: #fff;
+  border-radius: 30%;
+  animation: pointFade 800ms infinite ease-in-out both;
+}
+.rst__loadingCirclePoint:nth-of-type(1) {
+  transform: rotate(0deg);
+}
+.rst__loadingCirclePoint:nth-of-type(7) {
+  transform: rotate(180deg);
+}
+.rst__loadingCirclePoint:nth-of-type(1)::before,
+.rst__loadingCirclePoint:nth-of-type(7)::before {
+  animation-delay: -800ms;
+}
+.rst__loadingCirclePoint:nth-of-type(2) {
+  transform: rotate(30deg);
+}
+.rst__loadingCirclePoint:nth-of-type(8) {
+  transform: rotate(210deg);
+}
+.rst__loadingCirclePoint:nth-of-type(2)::before,
+.rst__loadingCirclePoint:nth-of-type(8)::before {
+  animation-delay: -666ms;
+}
+.rst__loadingCirclePoint:nth-of-type(3) {
+  transform: rotate(60deg);
+}
+.rst__loadingCirclePoint:nth-of-type(9) {
+  transform: rotate(240deg);
+}
+.rst__loadingCirclePoint:nth-of-type(3)::before,
+.rst__loadingCirclePoint:nth-of-type(9)::before {
+  animation-delay: -533ms;
+}
+.rst__loadingCirclePoint:nth-of-type(4) {
+  transform: rotate(90deg);
+}
+.rst__loadingCirclePoint:nth-of-type(10) {
+  transform: rotate(270deg);
+}
+.rst__loadingCirclePoint:nth-of-type(4)::before,
+.rst__loadingCirclePoint:nth-of-type(10)::before {
+  animation-delay: -400ms;
+}
+.rst__loadingCirclePoint:nth-of-type(5) {
+  transform: rotate(120deg);
+}
+.rst__loadingCirclePoint:nth-of-type(11) {
+  transform: rotate(300deg);
+}
+.rst__loadingCirclePoint:nth-of-type(5)::before,
+.rst__loadingCirclePoint:nth-of-type(11)::before {
+  animation-delay: -266ms;
+}
+.rst__loadingCirclePoint:nth-of-type(6) {
+  transform: rotate(150deg);
+}
+.rst__loadingCirclePoint:nth-of-type(12) {
+  transform: rotate(330deg);
+}
+.rst__loadingCirclePoint:nth-of-type(6)::before,
+.rst__loadingCirclePoint:nth-of-type(12)::before {
+  animation-delay: -133ms;
+}
+.rst__loadingCirclePoint:nth-of-type(7) {
+  transform: rotate(180deg);
+}
+.rst__loadingCirclePoint:nth-of-type(13) {
+  transform: rotate(360deg);
+}
+.rst__loadingCirclePoint:nth-of-type(7)::before,
+.rst__loadingCirclePoint:nth-of-type(13)::before {
+  animation-delay: 0ms;
+}
+
+.rst__rowTitleWithSubtitle {
+  font-size: 85%;
+  display: block;
+  height: 0.8rem;
+}
+.rst__rowTitle {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.rst__rowSubtitle {
+  font-size: 70%;
+  line-height: 1;
+}
+.rst__collapseButton,
+.rst__expandButton {
+  appearance: none;
+  border: none;
+  position: absolute;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  left: 25px !important;
+  top: 50%;
+  z-index: 2;
+}
+
+.subTask .rst__collapseButton,
+.subTask .rst__expandButton {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  top: 50%;
+  transform: translate(-30%, -50%);
+  cursor: pointer;
+  left: 33px !important;
+  top: 35px;
+  z-index: 2;
+}
+
+.rst__collapseButton {
+  background: #0005
+    url('data:image/svg+xml;utf8,<svg stroke="currentColor" fill="white" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z"></path></svg>')
+    no-repeat center !important;
+}
+.subTask .rst__expandButton {
+  background: #0005
+    url('data:image/svg+xml;utf8,<svg stroke="currentColor" fill="white" stroke-width="0" t="1551322312294" viewBox="0 0 1024 1024" version="1.1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M474 152m8 0l60 0q8 0 8 8l0 704q0 8-8 8l-60 0q-8 0-8-8l0-704q0-8 8-8Z"></path><path d="M168 474m8 0l672 0q8 0 8 8l0 60q0 8-8 8l-672 0q-8 0-8-8l0-60q0-8 8-8Z"></path></svg>')
+    no-repeat center !important;
+}
+
+.rst__expandButton {
+  background: #0005
+    url('data:image/svg+xml;utf8,<svg stroke="currentColor" fill="white" stroke-width="0" t="1551322312294" viewBox="0 0 1024 1024" version="1.1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M474 152m8 0l60 0q8 0 8 8l0 704q0 8-8 8l-60 0q-8 0-8-8l0-704q0-8 8-8Z"></path><path d="M168 474m8 0l672 0q8 0 8 8l0 60q0 8-8 8l-672 0q-8 0-8-8l0-60q0-8 8-8Z"></path></svg>')
+    no-repeat center !important;
+}
+
+/**
+   * Line for under a node with children
+   */
+.rst__lineChildren {
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+}
+.rst__lineChildren::after {
+  content: "";
+  position: absolute;
+  background-color: #dcdcde;
+  width: 2px;
+  left: 22px;
+  top: 62px;
+  height: 8px;
+}
+
+.rst__rtl.rst__lineChildren::after {
+  right: 50%;
+  left: initial;
+}
+
+.rst__placeholder {
+  position: relative;
+  height: 68px;
+  max-width: 300px;
+  padding: 10px;
+}
+.rst__placeholder,
+.rst__placeholder > * {
+  box-sizing: border-box;
+}
+.rst__placeholder::before {
+  border: 3px dashed #d9d9d9;
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  z-index: -1;
+}
+
+/**
+   * The outline of where the element will go if dropped, displayed while dragging
+   */
+.rst__placeholderLandingPad,
+.rst__placeholderCancelPad {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.rst__placeholderLandingPad *,
+.rst__placeholderCancelPad * {
+  opacity: 0 !important;
+}
+.rst__placeholderLandingPad::before,
+.rst__placeholderCancelPad::before {
+  background-color: lightblue;
+  border-color: white;
+}
+
+/**
+   * Alternate appearance of the landing pad when the dragged location is invalid
+   */
+.rst__placeholderCancelPad::before {
+  background-color: #e6a8ad;
+}
+
+/**
+   * Extra class applied to VirtualScroll through className prop
+   */
+.rst__virtualScrollOverride {
+  height: inherit !important;
+  overflow: hidden !important;
+}
+.rst__virtualScrollOverride * {
+  box-sizing: border-box;
+}
+
+.rst__virtualScrollOverride > div {
+  height: inherit !important;
+  position: inherit !important;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+  overflow: visible !important;
+}
+
+.rst__rtl .ReactVirtualized__Grid__innerScrollContainer {
+  direction: rtl;
+}
+
+.ReactVirtualized__Grid {
+  outline: none;
+}
+
+.rst__node {
+  min-width: 100%;
+  position: relative;
+  text-align: left;
+  height: inherit !important;
+  display: flex;
+}
+
+.rst__lineBlock:first-child {
+  display: none;
+}
+
+.rst__node.rst__rtl {
+  text-align: right;
+}
+
+.rst__nodeContent {
+  flex: 1;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+}
+.rst__nodeContent > div :has(.rst__expandButton) {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.rst__nodeContent > div :has(.rst__collapseButton) {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* ==========================================================================
+     Scaffold
+  
+      Line-overlaid blocks used for showing the tree structure
+     ========================================================================== */
+.rst__lineBlock,
+.rst__absoluteLineBlock {
+  position: relative;
+  display: inline-block;
+}
+
+.rst__absoluteLineBlock {
+  position: absolute;
+  top: 0;
+}
+
+.rst__lineHalfHorizontalRight::before,
+.rst__lineFullVertical::after,
+.rst__lineHalfVerticalTop::after,
+.rst__lineHalfVerticalBottom::after {
+  position: absolute;
+  content: "";
+  background-color: #dcdcde;
+}
+
+/**
+   * +-----+
+   * |     |
+   * |  +--+
+   * |     |
+   * +-----+
+   */
+.rst__lineHalfHorizontalRight::before {
+  height: 2px;
+  top: 50%;
+  right: 0;
+  width: 50%;
+}
+
+.rst__rtl.rst__lineHalfHorizontalRight::before {
+  left: 0;
+  right: initial;
+}
+
+/**
+   * +--+--+
+   * |  |  |
+   * |  |  |
+   * |  |  |
+   * +--+--+
+   */
+.rst__lineFullVertical::after,
+.rst__lineHalfVerticalTop::after,
+.rst__lineHalfVerticalBottom::after {
+  width: 2px;
+  left: 50%;
+  top: -8px;
+  height: calc(100% + 8px);
+}
+
+/**
+   * +--+--+
+   * |  |  |
+   * |  |  |
+   * |  |  |
+   * +--+--+
+   */
+.rst__rtl.rst__lineFullVertical::after,
+.rst__rtl.rst__lineHalfVerticalTop::after,
+.rst__rtl.rst__lineHalfVerticalBottom::after {
+  right: 50%;
+  left: initial;
+}
+
+/**
+   * +-----+
+   * |  |  |
+   * |  +  |
+   * |     |
+   * +-----+
+   */
+.rst__lineHalfVerticalTop::after {
+  top: 0px;
+  height: 50%;
+}
+
+/**
+   * +-----+
+   * |     |
+   * |  +  |
+   * |  |  |
+   * +-----+
+   */
+.rst__lineHalfVerticalBottom::after {
+  top: auto;
+  bottom: 0;
+  height: 50%;
+}
+
+/* Highlight line for pointing to dragged row destination
+     ========================================================================== */
+/**
+   * +--+--+
+   * |  |  |
+   * |  |  |
+   * |  |  |
+   * +--+--+
+   */
+.rst__highlightLineVertical {
+  z-index: 3;
+}
+.rst__highlightLineVertical::before {
+  position: absolute;
+  content: "";
+  background-color: #36c2f6;
+  width: 8px;
+  margin-left: -4px;
+  left: 50%;
+  top: 0;
+  height: 100%;
+}
+
+.rst__rtl.rst__highlightLineVertical::before {
+  margin-left: initial;
+  margin-right: -4px;
+  left: initial;
+  right: 50%;
+}
+
+@keyframes arrow-pulse {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  30% {
+    transform: translate(0, 300%);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(0, 700%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 1000%);
+    opacity: 0;
+  }
+}
+.rst__highlightLineVertical::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  margin-left: -4px;
+  left: 50%;
+  top: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid white;
+  animation: arrow-pulse 1s infinite linear both;
+}
+
+.rst__rtl.rst__highlightLineVertical::after {
+  margin-left: initial;
+  margin-right: -4px;
+  right: 50%;
+  left: initial;
+}
+
+/**
+   * +-----+
+   * |     |
+   * |  +--+
+   * |  |  |
+   * +--+--+
+   */
+.rst__highlightTopLeftCorner::before {
+  z-index: 3;
+  content: "";
+  position: absolute;
+  border-top: solid 8px #36c2f6;
+  border-left: solid 8px #36c2f6;
+  box-sizing: border-box;
+  height: calc(50% + 4px);
+  top: 50%;
+  margin-top: -4px;
+  right: 0;
+  width: calc(50% + 4px);
+}
+
+.rst__rtl.rst__highlightTopLeftCorner::before {
+  border-right: solid 8px #36c2f6;
+  border-left: none;
+  left: 0;
+  right: initial;
+}
+
+/**
+   * +--+--+
+   * |  |  |
+   * |  |  |
+   * |  +->|
+   * +-----+
+   */
+.rst__highlightBottomLeftCorner {
+  z-index: 3;
+}
+.rst__highlightBottomLeftCorner::before {
+  content: "";
+  position: absolute;
+  border-bottom: solid 8px #36c2f6;
+  border-left: solid 8px #36c2f6;
+  box-sizing: border-box;
+  height: calc(100% + 4px);
+  top: 0;
+  right: 12px;
+  width: calc(50% - 8px);
+}
+
+.rst__rtl.rst__highlightBottomLeftCorner::before {
+  border-right: solid 8px #36c2f6;
+  border-left: none;
+  left: 12px;
+  right: initial;
+}
+
+.rst__highlightBottomLeftCorner::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  right: 0;
+  top: 100%;
+  margin-top: -12px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid #36c2f6;
+}
+
+.rst__rtl.rst__highlightBottomLeftCorner::after {
+  left: 0;
+  right: initial;
+  border-right: 12px solid #36c2f6;
+  border-left: none;
+}

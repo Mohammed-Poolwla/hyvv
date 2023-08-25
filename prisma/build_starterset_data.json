@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Company Name",
+    "child": ["Tagline"]
+  },
+  {
+    "title": "Domain",
+    "child": ["Hosting"]
+  },
+  {
+    "title": "Emails",
+    "child": ["GSuite Workspace Setup", "Create Emails for Team Members"]
+  },
+  {
+    "title": "Branding",
+    "child": ["Logo", "Colors", "Font"]
+  },
+  {
+    "title": "Incorporation",
+    "child": [
+      "LLC or C-Corporation Setup",
+      "Federal EIN Number",
+      "Foregin Qualification",
+      "IRS EIN Number Letter",
+      "Operating Agreement Filed with Secretary of State",
+      "Establish Ownership Stakes",
+      "Issue Ownership Documents"
+    ]
+  },
+  {
+    "title": "Bank Account",
+    "child": [
+      "Select Bank",
+      "Setup Account",
+      "Complete Opening Deposit",
+      "Receive Debit Card Physical/Virtual Card"
+    ]
+  },
+  {
+    "title": "Accounting",
+    "child": [
+      "Select Accounting System",
+      "Link to Bank Account",
+      "Connect Chart of Accounts"
+    ]
+  },
+  {
+    "title": "Landing Page",
+    "child": ["Single page describing product with email capture"]
+  },
+  {
+    "title": "CRM System",
+    "child": ["Connect Website Landing Page to CRM System"]
+  },
+  {
+    "title": "Socials",
+    "child": [
+      "Establis Social Media Accounts",
+      "Linkdin",
+      "Instagram",
+      "TikTok",
+      "Facebook",
+      "SnapChat"
+    ]
+  },
+  {
+    "title": "Digital Business Card",
+    "child": [
+      "Setup HiHello Account",
+      "Have Team create digital business card",
+      "Connect to CRM System"
+    ]
+  }
+]

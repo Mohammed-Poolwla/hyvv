@@ -1,0 +1,144 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String     @id @default(uuid())
+  firstName    String?
+  lastName     String?
+  email        String     @unique
+  role         Role       @default(ADMIN)
+  selectedStartUpId String?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  employee_ids Employee[]
+}
+
+model Employee {
+  id        String   @id @default(uuid())
+  isFounder Boolean
+  jobTitle  String
+  startDate DateTime @default(now())
+  isActive  Boolean  @default(true)
+  userId    String?
+  startUpId String?
+  parent String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  startUp   StartUp? @relation(fields: [startUpId], references: [id], onDelete: Cascade)
+  user      User?    @relation(fields: [userId], references: [id])
+}
+
+model StartUp {
+  id           String        @id @default(uuid())
+  companyName  String        @unique
+  companyType  String?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  builds       Build[]       @relation("StartupToBuild")
+  defineGroups DefineGroup[]
+  members      Employee[]
+}
+
+model DefineGroup {
+  id         String         @id @default(uuid())
+  groupTitle String
+  startUpId  String
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+  startUp    StartUp        @relation(fields: [startUpId], references: [id], onDelete: Cascade)
+  sections   GroupSection[]
+}
+
+model DefineItem {
+  id        String   @id @default(uuid())
+  title     String
+  time      String
+  duration  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model GroupSection {
+  id           String      @id @default(uuid())
+  groupId      String
+  sectionTitle String
+  sectionData  Json?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  group        DefineGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+}
+
+model Build {
+  id        String       @id @default(uuid())
+  startUpId String
+  title     String
+  parentId  String
+  topParentId  String
+  status    Status       @default(OTHER)
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+  startUp   StartUp      @relation("StartupToBuild", fields: [startUpId], references: [id], onDelete: Cascade)
+  tasks     TaskDetail[]
+  icon      String       @default("")
+  checked   Boolean
+}
+
+model BuildBarTemplate {
+  id             String   @id @default(uuid())
+  title          String
+  subBar         String[]
+  time           Int
+  duration       String
+  upVote         Int
+  downVote       Int
+  upVoteState    Boolean
+  downVoteState  Boolean
+  hyvv_suggested Int
+  rating         Int
+  price          Int
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model TaskDetail {
+  id          String   @id @default(uuid())
+  taskId      String
+  build       Build    @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  description String?
+  budget      Int
+  createDate  DateTime @default(now())
+  endDate     DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  comment     Json[]
+  freelancer  String[]
+}
+
+
+
+enum Role {
+  USER
+  FOUNDER
+  FREELANCER
+  CONTRACTOR
+  ADMIN
+  PROJECT_MANAGER
+  ADVISOR
+}
+
+enum Status {
+  STAGED
+  OFFER
+  BUILD
+  PLAN
+  OTHER
+  STARTING
+  IN_PROGRESS
+  FOR_REVIEW
+  COMPLETE
+}
